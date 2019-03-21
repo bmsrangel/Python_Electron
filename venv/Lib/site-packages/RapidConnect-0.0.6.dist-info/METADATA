@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: RapidConnect
+Version: 0.0.6
+Summary: Official Python client for RapidAPI Connect
+Home-page: https://github.com/RapidSoftwareSolutions/RapidAPIConnect_Python
+Author: Andrey Bukati
+Author-email: andrey@rapidapi.com
+License: UNKNOWN
+Keywords: rapidapi,api,python
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: requests (>=2.8.1)
+Requires-Dist: six (>=1.10.0)
+Requires-Dist: websocket-client (>=0.40.0)
+
+UNKNOWN
+
+

@@ -1,0 +1,3 @@
+[setuptools.installation]
+eggsecutable = colorize.bar:foo
+
