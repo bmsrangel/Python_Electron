@@ -1,5 +1,6 @@
 {
-  "name": "electron-quick-start",
+  "name": "ferramentas-python",
+  "productName": "Ferramentas Python",
   "version": "1.0.0",
   "description": "A minimal Electron application",
   "main": "main.js",

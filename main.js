@@ -10,6 +10,7 @@ function createWindow () {
   mainWindow = new BrowserWindow({
     width: 800,
     height: 600,
+    icon: __dirname + '/_images/python-icon.ico',
     webPreferences: {
       nodeIntegration: true
     }

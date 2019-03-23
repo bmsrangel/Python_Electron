@@ -1,0 +1,40 @@
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="../_linkers/imc.js" charset="utf-8"></script>
+</head>
+
+<body>
+    <br>
+    <div class="container">
+        <button class="btn btn-info"><a style="color:white" href="../index.html">Voltar</a> </button>
+        <div class="jumbotron">
+            <h1>Índice de Massa Corporal</h1>
+            <h2>Powered by Python</h2>
+            <p>Rendered by HTML and JavaScript</p>
+        </div>
+        <br>
+        <table style="border-collapse: separate; border-spacing: 0px">
+            <tr>
+                <td>
+                    <table style="border-collapse: separate; border-spacing: 5px">
+                        <tr>
+                            <td align="right"><b>Seu peso: </b></td>
+                            <td><input id="peso" type="text" placeholder=" Peso" /></td>
+                        </tr>
+                        <tr>
+                            <td align="right"><b>Sua altura: </b></td>
+                            <td><input id="altura" type="text" placeholder=" Altura" /></td>
+                        </tr>
+                    </table>
+                </td>
+                <td>
+                    <button class="btn btn-success" onclick="getPesoAltura()">Calcular</button>
+                </td>
+            </tr>
+        </table>
+        <br>
+
+    </div>
+<body>
